@@ -29,7 +29,7 @@ const mess = document.createElement('div');
 mess.classList.add('message-container');
 giftContainer.appendChild(mess);
 
-const message = "Babe, Happy Anniversary 1 Month 🥰";
+const message = "Babe, Happy 1 Month Anniversary 🥰";
 const words = message.split(' ');
 const wordElements = [];
 
