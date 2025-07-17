@@ -16,7 +16,7 @@ const gifList = [
 ];
 
 for (let i = 1; i <= 20; i++) {
-  if (Math.random() < 0.6) {
+  if (Math.random() < 0.8) {
     imageList.push(`./style/image/her${i}.jpg`);
   } else {
     const gif = gifList[Math.floor(Math.random() * gifList.length)];
