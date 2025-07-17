@@ -15,8 +15,8 @@ const gifList = [
   'https://i.pinimg.com/originals/ae/4d/b2/ae4db26185faa3877723c5914dd91523.gif'
 ];
 
-for (let i = 1; i <= 36; i++) {
-  if (Math.random() < 0.3) {
+for (let i = 1; i <= 20; i++) {
+  if (Math.random() < 0.6) {
     imageList.push(`./style/image/her${i}.jpg`);
   } else {
     const gif = gifList[Math.floor(Math.random() * gifList.length)];
@@ -29,7 +29,7 @@ const mess = document.createElement('div');
 mess.classList.add('message-container');
 giftContainer.appendChild(mess);
 
-const message = "Happy Anniversary 1 Month, Babe 🥰";
+const message = "Babe, Happy Anniversary 1 Month 🥰";
 const words = message.split(' ');
 const wordElements = [];
 
